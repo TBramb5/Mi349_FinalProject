@@ -2,14 +2,14 @@
 
 body {
   margin: 0;
-  background-color: #747373;
+  background-color: #d9d9d9;
   font-family: Arial, sans-serif;
 }
 
 .header {
   position: sticky;
   top: 0;
-  background-color: #222222;
+  background-color: #1c1c1c;
   color: white;
   display: flex;
   justify-content: space-between;
