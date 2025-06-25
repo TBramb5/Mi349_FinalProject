@@ -91,19 +91,29 @@ body {
   font-weight: bold;
 }
 
+
+
 .project-gallery {
   display: flex;
-  gap: 20px;
-  padding: 40px;
   width: 100%;
+  gap: 20px;
+  padding: 0 40px 60px;
   box-sizing: border-box;
+}
+
+.project-box {
+  height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
 }
 
 .project-box img {
   width: 100%;
-  height: 100%
-  display: block;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .project-box.small {
@@ -112,13 +122,6 @@ body {
 
 .project-box.large {
   width: 50%;
-}
-
-.project-box img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
 }
 
 
