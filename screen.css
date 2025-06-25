@@ -14,14 +14,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 60px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
 
 .header-left {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
+  padding-left: 30px;
 }
 
 .site-title {
@@ -34,18 +34,21 @@ body {
   height: 40px;
 }
 
+
 .nav-center {
   display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex: 1;
+  gap: 50px;
 }
 
 .nav-center a {
   color: white;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  padding: 12px 20px;
+  text-decoration: none;
   white-space: nowrap;
+  text-align: center;
+  transition: color 0.2s;
 }
 
 .nav-center a:hover {
@@ -59,11 +62,13 @@ body {
 .contact-button {
   background-color: #28a745;
   color: white;
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 14px 32px;
+  font-size: 1.2rem;
   font-weight: bold;
   border: none;
   border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s;
 }
 
 .contact-button:hover {
