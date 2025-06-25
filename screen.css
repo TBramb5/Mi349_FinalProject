@@ -107,6 +107,8 @@ body {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
+  border: 8px solid #000;
+  border-radius: 12px;
 }
 
 .project-box img {
