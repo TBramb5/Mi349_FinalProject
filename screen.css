@@ -146,28 +146,32 @@ body {
 .image-citations {
   background-color: #222;
   color: #aaa;
-  text-align: center;
-  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
   margin-top: 10px;
   border-top: 1px solid #444;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.image-citations a {
-  color: #28a745;
-  text-decoration: none;
-  cursor: default;
-}
-
-.author-info {
-  margin: 0 0 6px 0;
+.author-info p {
+  margin: 2px 0;
   font-style: italic;
   color: #ccc;
 }
 
+.image-credits p {
+  margin: 0;
+}
 
-
-
+.image-credits a {
+  color: #28a745;
+  margin-left: 4px;
+  margin-right: 4px;
+}
 
 
 
