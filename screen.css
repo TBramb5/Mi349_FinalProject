@@ -143,6 +143,12 @@ body {
 }
 
 
+.footer {
+  max-width: 900px;   
+  margin: 0 auto;     
+  padding: 0 20px;
+}
+
 .image-citations {
   background-color: #222;
   color: #aaa;
@@ -165,6 +171,7 @@ body {
 
 .image-credits p {
   margin: 0;
+  text-align: right;
 }
 
 .image-credits a {
@@ -172,6 +179,7 @@ body {
   margin-left: 4px;
   margin-right: 4px;
 }
+
 
 
 
