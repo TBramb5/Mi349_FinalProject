@@ -9,7 +9,7 @@ body {
 .header {
   position: sticky;
   top: 0;
-  background-color: #111;
+  background-color: #242323;
   color: white;
   display: flex;
   justify-content: space-between;
