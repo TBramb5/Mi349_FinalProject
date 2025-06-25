@@ -143,6 +143,25 @@ body {
 }
 
 
+.image-citations {
+  background-color: #222;
+  color: #aaa;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-top: 1px solid #444;
+}
+
+.image-citations a {
+  color: #28a745;
+}
+
+
+
+
+
+
 
 
 .about-content {
