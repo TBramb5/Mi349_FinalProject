@@ -48,7 +48,6 @@ body {
   padding: 14px 28px;
   white-space: nowrap;
   text-align: center;
-  transition: color 0.2s;
 }
 
 
@@ -92,6 +91,42 @@ body {
   font-weight: bold;
 }
 
+.project-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 40px;
+}
+
+.project-box {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.small-box {
+  flex: 1;
+}
+
+.large-box {
+  flex: 2;
+}
+
+.small-box, .large-box {
+    flex: none;
+    width: 100%;
+  }
+
+
+
+  
 .about-content {
   max-width: 800px;
   margin: 80px auto;
