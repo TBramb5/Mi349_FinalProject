@@ -181,7 +181,6 @@ body {
 
 
 .about-content {
-  max-width: 800px;
   margin: 80px auto;
   padding: 0 20px;
   color: #222;
@@ -195,7 +194,6 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-
 
 .about-line {
   border: none;
