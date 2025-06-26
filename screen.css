@@ -206,6 +206,7 @@ body {
 
 .about-body {
   display: flex;
+  flex-wrap: nowrap;
   padding: 0 40px;
   justify-content: space-between;
   gap: 40px;
@@ -213,8 +214,7 @@ body {
 }
 
 .about {
-  flex: 1;
-  min-width: 300px;
+  width: 50%;
   background-color: #fff;
   padding: 30px;
   border-radius: 12px;
@@ -223,6 +223,7 @@ body {
   text-align: left;
   font-size: 1.05rem;
   line-height: 1.6;
+  box-sizing: border-box;
 }
 
 .contact-form-container {
