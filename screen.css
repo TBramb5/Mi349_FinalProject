@@ -210,7 +210,6 @@ body {
   padding: 0 40px;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .about {
