@@ -87,7 +87,12 @@ body {
 }
 
 .project-gallery h2 {
-  margin-bottom: 20px;
+  margin: 0 auto 40px;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
   font-size: 2rem;
   font-weight: bold;
   color: #1c1c1c;
