@@ -146,20 +146,27 @@ body {
   color: #1c1c1c;
 }
 
+.footer-logo img {
+  height: 50px;
+  width: auto;
+}
 
+.footer-logo {
+  margin-left: auto;
+}
 
 .image-citations {
-  background-color: #222;
-  color: #aaa;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  margin-top: 10px;
+  flex-wrap: wrap;
+  background-color: #222;
+  color: #aaa;
   border-top: 1px solid #444;
   font-size: 0.9rem;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .author-info p {
@@ -269,3 +276,4 @@ body {
   border: none;
   border-radius: 6px;
 }
+
