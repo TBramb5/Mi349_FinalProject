@@ -33,10 +33,6 @@ body {
   text-decoration: none;
 }
 
-.logo {
-  height: 40px;
-}
-
 .nav-center {
   display: flex;
   gap: 60px;
@@ -52,7 +48,6 @@ body {
   text-decoration: none;
 }
 
-
 .header-right {
   flex-shrink: 0;
 }
@@ -67,7 +62,6 @@ body {
   border-radius: 6px;
   text-decoration: none;
 }
-
 
 .title-section {
   display: flex;
@@ -93,7 +87,6 @@ body {
   font-weight: bold;
   line-height: 1.2;
 }
-
 
 .project-gallery {
   display: flex;
@@ -128,7 +121,6 @@ body {
   width: 50%;
 }
 
-
 .featured-projects-heading {
   text-align: center;
   margin: 0 auto 40px;
@@ -144,11 +136,6 @@ body {
   font-size: 2rem;
   font-weight: bold;
   color: #1c1c1c;
-}
-
-.footer-logo img {
-  height: 50px;
-  width: auto;
 }
 
 .image-citations {
@@ -181,7 +168,6 @@ body {
   margin-left: 4px;
   margin-right: 4px;
 }
-
 
 .about-content {
   margin: 80px auto;
@@ -225,7 +211,6 @@ body {
   line-height: 1.6;
   box-sizing: border-box;
 }
-
 
 .contact-form-container {
   max-width: 700px;
